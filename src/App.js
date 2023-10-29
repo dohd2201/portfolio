@@ -33,6 +33,7 @@ function App() {
                 "PHP",
                 "LARAVEL",
                 "NODE JS",
+                "NEST JS",  
                 "TYPESCRIPT",
                 "DOCKER",
                 "LINUX CLI",
@@ -48,7 +49,7 @@ function App() {
         {
             id: 4,
             name: "SCM",
-            data: ["GITHUB", "GITLAB"],
+            data: ["GITHUB", "GITLAB", "BITBUCKET"],
         },
     ];
 
