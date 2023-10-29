@@ -34,7 +34,7 @@ function About() {
                     >
                         I love to building web application. Whenever possible, I
                         also put my love of creating things using Node.js, PHP, Laravel and
-                        Modern Javascript Library/Frameworks like ReactJS and Jquery.
+                        Modern Javascript Library/Frameworks like ReactJS, NextJS, VueJS and Jquery.
                     </span>
                 </p>
             </div>
