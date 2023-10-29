@@ -1,0 +1,25 @@
+.portfolio_section {
+    text-align: center;
+    overflow: hidden;
+    .portfolio_wrapper {
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+        .portfolio_content {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+            .btn-slide {
+                padding: 5px 30px;
+                text-decoration: none;
+                overflow: hidden;
+                @include sp {
+                    padding: get_sp(5) get_sp(30);
+                }
+            }
+        }
+    }
+}

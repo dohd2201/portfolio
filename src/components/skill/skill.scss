@@ -1,0 +1,67 @@
+.skill_section {
+    text-align: center;
+    overflow: hidden;
+    .skill_wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+        overflow: hidden;
+        @include sp {
+            gap: get_sp(20);
+        }
+        .skill_content {
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,.1);
+            border-radius: 20px;
+            height: 100%;
+            padding: 20px 40px;
+            width: 35%;
+            overflow: hidden;
+            @include sp {
+                width: 90%;
+                padding: get_sp(20);
+            }
+            .skill_title {
+                font-size: 24px;
+                font-weight: 600;
+                color: #4d4d4d;
+                display: block;
+                margin-bottom: 20px;
+                overflow: hidden;
+                @include sp {
+                    margin-bottom: get_sp(20);
+                }
+            }
+            .skill_list_item {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                overflow: hidden;
+                @include sp {
+                    gap: get_sp(10);
+                }
+                .skill_item {
+                    display: block;
+                    padding: 5px 20px;
+                    background: #fafafa;
+                    border: 1px solid rgba(0,0,0,.1);
+                    color: #757575;
+                    border-radius: 20px;
+                    font-size: 16px;
+                    overflow: hidden;
+                    @include sp {
+                        padding: get_sp(5) get_sp(10);
+                        font-size: get_sp(14);
+                    }
+                }
+                .skill_item:hover {
+                    color: #fafafa;
+                    background-color: #4d4d4d;
+                }
+            }
+        }
+    }
+}

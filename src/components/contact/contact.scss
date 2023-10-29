@@ -1,0 +1,91 @@
+.contact_section {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 80px;
+    .contact_wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        @include sp {
+            gap: get_sp(20);
+            flex-direction: column;
+        }
+        .contact_content {
+            width: 100%;
+            background-color: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            overflow: hidden;
+            text-decoration: none;
+            @include sp {
+                border-radius: 0;
+                padding: get_sp(20);
+            }
+            .social_icon {
+                color: #757575;
+                font-size: 40px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                @include sp {
+                    font-size: get_sp(30);
+                    margin-bottom: get_sp(10);
+                }
+            }
+            .social_name {
+                color: #4d4d4d;
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                overflow: hidden;
+                @include sp {
+                    font-size: get_sp(20);
+                    margin-bottom: get_sp(10);
+                }
+            }
+
+            .write_me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #757575;
+                span {
+                    font-size: 20px;
+                    overflow: hidden;
+                    @include sp {
+                        font-size: get_sp(20);
+                    }
+                }
+                .right_arrow_icon {
+                    font-size: 30px;
+                    overflow: hidden;
+                    -moz-animation: arrowRightAnimation 2s infinite;
+                    -webkit-animation: arrowRightAnimation 2s infinite;
+                    animation: arrowRightAnimation 2s infinite;
+                }
+            }
+        }
+    }
+}
+
+@keyframes arrowRightAnimation {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateX(10px);
+    }
+    40% {
+        transform: translateX(-5px);
+    }
+    60% {
+        transform: translateX(0px);
+    }
+}

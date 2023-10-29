@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edb17205.css",
+    "main.js": "/static/js/main.f26285c4.js",
+    "static/media/haduydo.jpeg": "/static/media/haduydo.15bd1a3b16f074bae4a6.jpeg",
+    "index.html": "/index.html",
+    "main.edb17205.css.map": "/static/css/main.edb17205.css.map",
+    "main.f26285c4.js.map": "/static/js/main.f26285c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edb17205.css",
+    "static/js/main.f26285c4.js"
+  ]
+}

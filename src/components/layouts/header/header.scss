@@ -1,0 +1,79 @@
+.header {
+    background-color: #fff;
+    left: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+    .header_wrapper {
+        max-width: 968px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        padding: 0 20px;
+        overflow: hidden;
+        .header_logo {
+            color: #000000;
+            font-size: 28px;
+            font-weight: 600;
+            overflow: hidden;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                height: 24px;
+                width: 24px;
+                margin-right: 4px;
+                transform: rotate(-45deg);
+            }
+        }
+        .header_logo:hover > img {
+            transform: rotate(0); 
+        }
+        .header_menu {
+            overflow: hidden;
+            .menu_list {
+                display: flex;
+                gap: 25px;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                @include sp {
+                    display: none;
+                }
+                .menu_item {
+                    list-style: none;
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding: 0 5px;
+                    transition: all .2s ease-in-out;
+                    color: #757575;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .menu_item:hover {
+                    color: #000000;
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .icon_hamburger {
+            display: none;
+            font-size: 20px;
+            overflow: hidden;
+            @include sp {
+                display: block;
+            }
+        }
+    }
+}
+
+.header_scroll {
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 20%);
+}
