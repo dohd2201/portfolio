@@ -9,7 +9,7 @@ function Home() {
                 <div className="home_img--mobile"></div>
                 <div className="home_content">
                     <div className="home_social" data-aos="fade-up-right">
-                        <a className="home_social_icon home_social_icon-first" href="https://gitlab.com/dohd2201" target="_blank">
+                        <a className="home_social_icon home_social_icon-first" href="#" target="_blank">
                             <FaGithub className="icon icon_github" href="" target="_blank"/>
                         </a>
                         <a className="home_social_icon home_social_icon-second" href="https://www.facebook.com/dohd2201/" target="_blank">

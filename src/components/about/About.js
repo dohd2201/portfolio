@@ -1,12 +1,7 @@
 import React from "react";
 
 function About() {
-    let firstContent =
-        "Hi there 👋, My name is Do, and I am a student at Hanoi University Of Industry. I had a strong passion for WebDevelopment since my second year.";
-    let secondContent =
-        "I love to building web application. Whenever possible, I also put my love of creating things using Node.js and Modern Javascript Library/Frameworks like ReactJS and VueJS.";
-    let firstEle = firstContent.split("").join("</span><span>") + "</span>";
-    let secondEle = secondContent.split("").join("</span><span>") + "</span>";
+    console.log(process.env.PUBLIC_URL);
     return (
         <section className="section about_section" id="about_section">
             <h2 className="section_title" data-aos="zoom-out-left">
@@ -22,7 +17,7 @@ function About() {
                         data-aos="fade-down"
                         data-aos-duration="1000"
                     >
-                        Hi there 👋, My name is Do, and I am a student at National Economics University. 
+                        Hi there 👋, My name is Do, and I am a student at National Economics University.
                         I had a strong passion for Web
                         Development since my second year.
                     </span>
@@ -44,6 +39,8 @@ function About() {
                     data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000"
+                    href="/Ha-Duy-Do.pdf"
+                    download="Ha-Duy-Do.pdf"
                 >
                     Download CV
                 </a>
