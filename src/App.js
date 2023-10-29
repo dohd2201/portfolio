@@ -20,7 +20,9 @@ function App() {
                 "BOOTSTRAP",
                 "JAVASCRIPT",
                 "JQUERY",
+                "Vue JS",
                 "REACT JS",
+                "Next JS",
                 "...",
             ],
         },
@@ -30,7 +32,7 @@ function App() {
             data: [
                 "PHP",
                 "LARAVEL",
-                "NODEJS",
+                "NODE JS",
                 "TYPESCRIPT",
                 "DOCKER",
                 "LINUX CLI",

@@ -26,7 +26,7 @@ function Home() {
                         </h1>
                         <div className="home_title">
                             <p data-aos="fade-down">
-                                I'm a <span>Web Developer</span>
+                                I'm a <span>Fullstack Developer</span>
                             </p>
                         </div>
                         <div className="contact_button">
