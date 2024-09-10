@@ -32,6 +32,7 @@ function App() {
             data: [
                 "PHP",
                 "LARAVEL",
+                "WORDPRESS",
                 "NODE JS",
                 "NEST JS",  
                 "TYPESCRIPT",

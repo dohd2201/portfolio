@@ -18,8 +18,7 @@ function About() {
                         data-aos-duration="1000"
                     >
                         Hi there 👋, My name is Do, and I am a student at National Economics University.
-                        I had a strong passion for Web
-                        Development since my second year.
+                        I come from Nghệ An 🌍 and developed a strong passion for Web Development since my second year.
                     </span>
                     <br />
                     <span
@@ -27,9 +26,31 @@ function About() {
                         data-aos="fade-up"
                         data-aos-duration="1000"
                     >
-                        I love to building web application. Whenever possible, I
-                        also put my love of creating things using Node.js, PHP, Laravel and
-                        Modern Javascript Library/Frameworks like ReactJS, NextJS, VueJS and Jquery.
+                        I love building web applications. Whenever possible, I enjoy creating things using Node.js, PHP, Laravel, WordPress, and modern JavaScript libraries/frameworks like ReactJS, NextJS, VueJS, and jQuery.
+                    </span>
+                    <br />
+                    <span
+                        className="line line__3"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        In my free time, I enjoy listening to music 🎶, visiting peaceful places 🏞️, and playing sports 🏀.
+                    </span>
+                    <br />
+                    <span
+                        className="line line__4"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        I consider myself an introvert 🤫, and I always aim for personal growth and self-improvement.
+                    </span>
+                    <br />
+                    <span
+                        className="line line__5"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        My upcoming goals include enhancing my technical skills, obtaining AWS certifications, and improving my language proficiency 🌐.
                     </span>
                 </p>
             </div>
